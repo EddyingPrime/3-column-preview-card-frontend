@@ -3,127 +3,259 @@
   padding: 0;
 }
 
-body {
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
+@media (min-width: 340px) and (max-width: 760px) {
+  body {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+  }
+
+  .firstcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(31, 77%, 52%);
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .secondcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(184, 100%, 22%);
+    padding-inline: 30px;
+    padding-block: 30px;
+  }
+
+  .thirdcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(179, 100%, 13%);
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  img {
+    width: 45px;
+    height: 24px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+    color: white;
+    margin-block: 20px;
+    padding-right: 20px;
+  }
+
+  p {
+    font-size: 10px;
+    color: hsl(0, 0%, 95%);
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+  }
+
+  button {
+    background-color: white;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .firstcard button {
+    color: hsl(31, 77%, 52%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
+
+  .firstcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+  }
+
+  .secondcard button {
+    color: hsl(184, 100%, 22%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
+
+  .secondcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+  }
+  .thirdcard button {
+    color: hsl(179, 100%, 13%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
+
+  .thirdcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+  }
 }
 
-h1 {
-  font-family: "Big Shoulders Display", cursive;
-  font-weight: 700;
-}
+@media (min-width: 768px) {
+  body {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
 
-.cards {
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+  }
 
-.firstcard {
-  background-color: #f1f0f0;
-  width: 200px;
-  height: 300px;
-  background-color: hsl(31, 77%, 52%);
-  padding-inline: 30px;
-  padding-block: 30px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-.secondcard {
-  background-color: #f1f0f0;
-  width: 200px;
-  height: 300px;
-  background-color: hsl(184, 100%, 22%);
-  padding-inline: 30px;
-  padding-block: 30px;
-}
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
 
-.thirdcard {
-  background-color: #f1f0f0;
-  width: 200px;
-  height: 300px;
-  background-color: hsl(179, 100%, 13%);
-  padding-inline: 30px;
-  padding-block: 30px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-}
+  .firstcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(31, 77%, 52%);
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .secondcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(184, 100%, 22%);
+    padding-inline: 30px;
+    padding-block: 30px;
+  }
 
-img {
-  width: 45px;
-  height: 24px;
-  padding-right: 20px;
-}
+  .thirdcard {
+    background-color: #f1f0f0;
+    width: 200px;
+    height: 300px;
+    background-color: hsl(179, 100%, 13%);
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 
-h1 {
-  font-size: 25px;
-  color: white;
-  margin-block: 20px;
-  padding-right: 20px;
-}
+  img {
+    width: 45px;
+    height: 24px;
+    padding-right: 20px;
+  }
 
-p {
-  font-size: 10px;
-  color: hsl(0, 0%, 95%);
-  line-height: 20px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding-right: 20px;
-}
+  h1 {
+    font-size: 25px;
+    color: white;
+    margin-block: 20px;
+    padding-right: 20px;
+  }
 
-button {
-  background-color: white;
-  padding-right: 20px;
-  cursor: pointer;
-  font-weight: 700;
-}
+  p {
+    font-size: 10px;
+    color: hsl(0, 0%, 95%);
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+  }
 
-.firstcard button {
-  color: hsl(31, 77%, 52%);
-  border-radius: 25px;
-  border: none;
-  padding: 12px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  margin: 50px 4px;
-}
+  button {
+    background-color: white;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: 700;
+  }
 
-.firstcard button:hover {
-  border: #f1f0f0 solid 2px;
-  background-color: hsl(31, 77%, 52%);
-  color: white;
-}
+  .firstcard button {
+    color: hsl(31, 77%, 52%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
 
-.secondcard button {
-  color: hsl(184, 100%, 22%);
-  border-radius: 25px;
-  border: none;
-  padding: 12px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  margin: 50px 4px;
-}
+  .firstcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+  }
 
-.secondcard button:hover {
-  border: #f1f0f0 solid 2px;
-  background-color: hsl(184, 100%, 22%);
-  color: white;
-}
-.thirdcard button {
-  color: hsl(179, 100%, 13%);
-  border-radius: 25px;
-  border: none;
-  padding: 12px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  margin: 50px 4px;
-}
+  .secondcard button {
+    color: hsl(184, 100%, 22%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
 
-.thirdcard button:hover {
-  border: #f1f0f0 solid 2px;
-  background-color: hsl(179, 100%, 13%);
-  color: white;
+  .secondcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+  }
+  .thirdcard button {
+    color: hsl(179, 100%, 13%);
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 50px 4px;
+  }
+
+  .thirdcard button:hover {
+    border: #f1f0f0 solid 2px;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+  }
 }
