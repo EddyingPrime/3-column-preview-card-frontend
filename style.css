@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/*mobile*/
+
 @media (min-width: 340px) and (max-width: 760px) {
   body {
     font-family: "Lexend Deca", sans-serif;
@@ -131,6 +133,8 @@
     color: white;
   }
 }
+
+/*tablet*/
 
 @media (min-width: 768px) {
   body {
